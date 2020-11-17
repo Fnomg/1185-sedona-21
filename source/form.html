@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Academy: Седона</title>
+</head>
+<body>
+  <header class="header">
+    <a class="header__logo">
+      <img class="header__logo-img" src="https://via.placeholder.com/102x84" width="102" height="84" alt="Туры в Седону" >
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrap">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item"><a href="index.html">Главная</a></li>
+          <li class="site-list__item"><a href="#">Фото и видео</a></li>
+          <li class="site-list__item"><a>Форма Отзыва</a></li>
+          <li class="site-list__item"><a href="#">HTML ACADEMY</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="header__pic">
+      <div class="header__promo-text"><img src="https://via.placeholder.com/229x39" width="229" height="39" alt="Седона"></div>
+    </div>
+  </header>
+  <main>
+ <section class="form">
+  <h1 class="visually-hidden">Оставить отзыв о городе Седона</h1>
+  <p class="form__title">Оставьте свой отзыв</p>
+  <p class="form__text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+  <form  action="https://echo.htmlacademy.ru">
+    <fieldset class="form__name">
+      <legend>Представьтесь:</legend>
+      <label for="firstName">ИМЯ*:</label>
+      <input type="text" name="firstName" placeholder="Петр" required>
+      <label for="lastName">ФАМИЛИЯ*:</label><input type="text" name="lastName" placeholder="Иванов" required>
+      <label for="middleName">Отчество:</label><input type="text" name="middleName" placeholder="Александрович">
+    </fieldset>
+    <fieldset class="form__contacts">
+      <legend>Контактная информация:</legend>
+      <label for="tel">Контактный телефон*:</label><input type="tel" name="tel" required>
+      <label for="email">Электронная почта*:</label><input type="email" name="email" required>
+    </fieldset>
+    <fieldset class="form__impression">
+      <legend>ВАше Общее впечатление:</legend>
+      <label for="positive">Скорее положительное</label><input type="radio" value="positive" name="impress" checked>
+      <label for="negative">Скорее отрицательное</label><input type="radio" value="negative" name="impress">
+      <label for="zero">Затрудняюсь ответить</label><input type="radio" value="zero" name="impress">
+    </fieldset>
+    <fieldset class="form__attractions">
+      <legend>посещенные достопримечательности:</legend>
+      <label for="bridge">Мост Дьявола</label><input type="checkbox" id="bridge" name="bridge">
+      <label for="mount">Гора-Колокол</label><input type="checkbox" id="mount" name="mount">
+      <label for="park">Слайд-парк</label><input type="checkbox" id="park" name="park">
+      <label for="rocks">Красные скалы</label><input type="checkbox" id="rocks" name="rocks">
+    </fieldset>
+    <fieldset class="form__comment">
+      <legend>Опишите свои эмоции:</legend>
+      <label for="comment"></label><textarea type="text" name="comment" placeholder="Опишите подробно все свои восторги"></textarea>
+    </fieldset>
+    <button class="form__button button">ОТПРАВИТЬ ОТЗЫВ</button>
+  </form>
+ </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__hashtag">#visitSEDONA</p>
+    <ul class="footer__social social">
+      <li class="social__item">
+        <a href="#" class="social__link"><img src="https://via.placeholder.com/46x48" width="46" height="48"></a>
+      </li>
+      <li class="social__item">
+        <a href="#" class="social__link"><img src="https://via.placeholder.com/46x48" width="46" height="48"></a>
+      </li>
+      <li class="social__item">
+        <a href="#" class="social__link"><img src="https://via.placeholder.com/46x48" width="46" height="48"></a>
+      </li>
+    </ul>
+    <div class="footer__htmlacademy htmlacademy">
+      <div class="htmlacademy__text">разработано</div>
+      <div class="htmlacademy__pic"><a href="https://htmlacademy.ru/intensive/adaptive"><img src="https://via.placeholder.com/30x34" width="30" height="34"></a></div>
+    </div>
+  </footer>
+</body>
+</html>
