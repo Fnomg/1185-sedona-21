@@ -1,0 +1,60 @@
+.features {
+  font-family: $base-font;
+}
+
+.features__list :nth-child(1) .feature__header,
+.features__list :nth-child(2) .feature__header{
+  background-color: $base-color;
+  color: $white;
+}
+
+.features__list :nth-child(1) .feature__header {
+  padding-top: 55px;
+  padding-bottom: 39px;
+}
+
+.features__list :nth-child(2) .feature__header {
+  padding-top: 39px;
+  padding-bottom: 35px;
+}
+
+.features__list .feature__header{
+  background-color: $gray;
+  padding-top: 26px;
+  padding-bottom: 24px;
+}
+
+.features__list :nth-child(1) .feature__picture{
+  height: 260px;
+  background: url(../img/photo-city.jpg) center center no-repeat;
+}
+
+.features__list :nth-child(2) .feature__picture{
+  height: 260px;
+  background: url(../img/photo-bridge.png) center center no-repeat;
+}
+
+.feature__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.feature__number {
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.feature__slogan {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+
