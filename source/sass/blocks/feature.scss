@@ -3,7 +3,7 @@
 }
 
 .features__list :nth-child(1) .feature__header,
-.features__list :nth-child(2) .feature__header{
+.features__list :nth-child(2) .feature__header {
   background-color: $base-color;
   color: $white;
 }
@@ -18,20 +18,20 @@
   padding-bottom: 35px;
 }
 
-.features__list .feature__header{
+.features__list .feature__header {
   background-color: $gray;
   padding-top: 26px;
   padding-bottom: 24px;
 }
 
-.features__list :nth-child(1) .feature__picture{
+.features__list :nth-child(1) .feature__picture {
   height: 260px;
-  background: url(../img/photo-city.jpg) center center no-repeat;
+  background: url("../img/photo-city.jpg") center center no-repeat;
 }
 
-.features__list :nth-child(2) .feature__picture{
+.features__list :nth-child(2) .feature__picture {
   height: 260px;
-  background: url(../img/photo-bridge.png) center center no-repeat;
+  background: url("../img/photo-bridge.png") center center no-repeat;
 }
 
 .feature__title {
@@ -56,5 +56,3 @@
   font-size: 14px;
   line-height: 21px;
 }
-
-
