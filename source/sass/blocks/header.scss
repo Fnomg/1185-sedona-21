@@ -1,0 +1,20 @@
+.header__pic {
+  height: 386px;
+  background-image: url("../img/back-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.header__promo-text {
+  display: flex;
+  justify-content: center;
+}
+
+.header__promo-text img {
+  margin-top: 90px;
+}

@@ -1,0 +1,24 @@
+.features {
+  font-family: $base-font;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features__title {
+  text-transform: uppercase;
+  text-align: center;
+  width: 270px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.features__text {
+  font-size: 14px;
+  line-height: 26px;
+  width: 270px;
+  text-align: center;
+  text-transform: uppercase;
+}

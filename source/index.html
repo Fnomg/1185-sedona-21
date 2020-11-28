@@ -2,12 +2,14 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>HTML Academy: Седона</title>
   </head>
   <body>
     <header class="header">
       <a class="header__logo">
-        <img class="header__logo-img" src="https://via.placeholder.com/102x84" width="102" height="84" alt="Туры в Седону" >
+        <img class="header__logo-img" src="img/logotype-mobile.svg" width="102" height="84" alt="Туры в Седону" >
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
@@ -21,7 +23,7 @@
         </div>
       </nav>
       <div class="header__pic">
-        <div class="header__promo-text"><img src="https://via.placeholder.com/282x214" width="282" height="214" alt="Добро пожаловать в Седону"></div>
+        <div class="header__promo-text"><img src="img/text.svg" width="282" height="214" alt="Добро пожаловать в Седону"></div>
       </div>
     </header>
     <main class="main">
@@ -33,26 +35,32 @@
         <ul class="features__list">
           <li class="features__item feature">
             <div class="feature__header">
-              <h3 class="feature__title">Настоящйгородок</h3>
+              <h3 class="feature__title">Настоящий городок</h3>
               <p class="feature__number">— №1 —</p>
               <p class="feature__slogan">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
             </div>
             <div class="feature__picture"></div>
             <ul class="feature__list profit">
               <li class="profit__item">
-                <img  class="profit__pic" src="https://via.placeholder.com/39x37" width="39" height="37" alt="Жилье">
-                <p class="profit__title">Жилье</p>
-                <p class="progit__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                <img  class="profit__pic" src="img/icon-house.svg" width="39" height="37" alt="Жилье">
+                <div class="profit__wrap">
+                  <p class="profit__title">Жилье</p>
+                  <p class="profit__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                </div>
               </li>
               <li class="profit__item">
-                <img  class="profit__pic" src="https://via.placeholder.com/32x38" width="32" height="38" alt="Сувениры">
-                <p class="profit__title">СУВЕНИРЫ</p>
-                <p class="progit__text">Не только китайского, но и местного производства!</p>
+                <img  class="profit__pic" src="img/icon-gift.svg" width="32" height="38" alt="Сувениры">
+                <div class="profit__wrap">
+                  <p class="profit__title">СУВЕНИРЫ</p>
+                  <p class="profit__text">Не только китайского, но и местного производства!</p>
+                </div>
               </li>
               <li class="profit__item">
-                <img  class="profit__pic" src="https://via.placeholder.com/40x35" width="40" height="35" alt="Еда">
-                <p class="profit__title">ЕДА</p>
-                <p class="progit__text">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+                <img  class="profit__pic" src="img/icon-burger.svg" width="40" height="35" alt="Еда">
+                <div class="profit__wrap">
+                  <p class="profit__title">ЕДА</p>
+                  <p class="profit__text">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+                </div>
               </li>
             </ul>
           </li>
@@ -82,34 +90,35 @@
             <div class="feature__header">
               <h3 class="feature__title">МАЛО ТУРИСТОВ</h3>
               <p class="feature__number">— №5 —</p>
-              <p class="feature__slogan">Большинство едет в гранд каньони толпится там</p>
+              <p class="feature__slogan">Большинство едет в гранд каньон и толпится там</p>
             </div>
           </li>
         </ul>
       </section>
       <section class="show-offers">
         <p class="show-offers__title">ЗАИНТЕРЕСОВАЛИСЬ?</p>
-        <p class="show-offers__text">Укажите предполагаемые датыпоездки, и мы покажем вам лучшиепредложения гостиниц в седоне</p>
+        <p class="show-offers__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <a class="show-offers__button button">НАЙТИ гостиницу</a>
       </section>
-      <section class="map"></section>
+      <section class="map">
+      </section>
     </main>
     <footer class="footer">
       <p class="footer__hashtag">#visitSEDONA</p>
       <ul class="footer__social social">
         <li class="social__item">
-          <a href="#" class="social__link"><img src="https://via.placeholder.com/46x48" width="46" height="48"></a>
+          <a href="#" class="social__link"><img src="img/icon-twitter.svg" width="17.5" height="14.5"></a>
         </li>
         <li class="social__item">
-          <a href="#" class="social__link"><img src="https://via.placeholder.com/46x48" width="46" height="48"></a>
+          <a href="#" class="social__link"><img src="img/icon-facebook.svg" width="8.7" height="18.9"></a>
         </li>
         <li class="social__item">
-          <a href="#" class="social__link"><img src="https://via.placeholder.com/46x48" width="46" height="48"></a>
+          <a href="#" class="social__link"><img src="img/icon-youtube.svg" width="19.9" height="14"></a>
         </li>
       </ul>
       <div class="footer__htmlacademy htmlacademy">
         <div class="htmlacademy__text">разработано</div>
-        <div class="htmlacademy__pic"><a href="https://htmlacademy.ru/intensive/adaptive"><img src="https://via.placeholder.com/30x34" width="30" height="34"></a></div>
+        <div class="htmlacademy__pic"><a href="https://htmlacademy.ru/intensive/adaptive"><img src="img/htmlacademy.svg" width="30" height="34"></a></div>
       </div>
     </footer>
   </body>

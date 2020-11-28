@@ -1,0 +1,15 @@
+.social {
+  width: 151px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $base-color;
+  width: 47px;
+  height: 48px;
+}

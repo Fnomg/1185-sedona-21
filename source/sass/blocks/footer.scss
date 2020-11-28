@@ -1,0 +1,24 @@
+.footer {
+  font-family: $base-font;
+}
+
+.footer__hashtag {
+  margin-top: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.footer__social {
+  margin: 0 auto;
+  margin-top: 33.5px;
+}
+
+.footer__htmlacademy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}

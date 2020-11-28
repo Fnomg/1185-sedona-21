@@ -1,0 +1,27 @@
+.show-offers {
+  font-family: $base-font;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-offers__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.show-offers__text {
+  width: 261px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.show-offers__button {
+  margin: 0 auto;
+  margin-top: 27px;
+}

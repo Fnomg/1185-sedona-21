@@ -1,0 +1,23 @@
+.profit {
+  font-family: $base-font;
+  width: 288px;
+  margin: 0 auto;
+}
+
+.profit__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.profit__text {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.profit__item {
+  display: flex;
+  flex-direction: row;
+}
