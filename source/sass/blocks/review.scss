@@ -1,0 +1,63 @@
+.review {
+  font-family: $base-font;
+}
+
+.review__text-wrap {
+  width: 306px;
+  margin: 0 auto;
+  margin-top: 36px;
+}
+
+.review__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.review__text {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.review__forms {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.review__name .form__input {
+  margin-left: 12px;
+}
+
+.review__contacts {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.review__contacts .form__wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.review__impression .form__wrap {
+  width: 289px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.review__attractions .form__wrap {
+  width: 289px;
+  display: flex;
+  flex-direction: row-reverse;
+}
