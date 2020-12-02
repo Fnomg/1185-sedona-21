@@ -1,0 +1,43 @@
+.cards {
+  font-family: $base-font;
+}
+
+.cards__item {
+  padding-top: 22px;
+  padding-bottom: 15px;
+}
+
+.cards__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.cards__author {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: $cards-author;
+}
+
+
+.cards__like {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.cards__like :nth-child(2) {
+  margin-left: 14px;
+}
+
+.cards__like-count {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}

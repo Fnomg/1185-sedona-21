@@ -3,6 +3,7 @@
   border: none;
   padding-top: 20px;
   padding-bottom: 25px;
+  font-family: $base-font;
 }
 
 .form__legend {
@@ -32,6 +33,10 @@
   font-size: 18px;
   line-height: 26px;
   color: $black;
+
+  &::placeholder {
+    color: $black;
+  }
 }
 
 .form__radio-title {
