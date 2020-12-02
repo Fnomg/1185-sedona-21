@@ -1,0 +1,24 @@
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $base-font;
+}
+
+.photo__title {
+  margin-top: 31px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.photo__text {
+  margin-top: 37px;
+  margin-bottom: 32px;
+  text-align: center;
+  width: 285px;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
