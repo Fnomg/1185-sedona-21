@@ -13,12 +13,21 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: bold;
+
+  @media (min-width: $tablet-width) {
+    width: 520px;
+  }
 }
 
 .features__text {
+  margin-top: 37px;
   font-size: 14px;
   line-height: 26px;
   width: 270px;
   text-align: center;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    width: 520px;
+  }
 }
