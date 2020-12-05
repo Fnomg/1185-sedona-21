@@ -1,13 +1,32 @@
+.header {
+  width: 320px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .header__pic {
+  width: 320px;
   height: 386px;
   background-image: url("../img/back-mobile.jpg");
   background-repeat: no-repeat;
   background-position: center;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    background-image: url("../img/back-desktop.jpg");
+  }
 }
 
 .header__logo {
+  width: 102px;
   display: flex;
   justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+  }
 }
 
 .header__promo-text {

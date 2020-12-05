@@ -12,4 +12,9 @@
   font-size: 21px;
   line-height: 26px;
   border: none;
+
+  @media (min-width: $tablet-width) {
+    width: 458px;
+    height: 58px;
+  }
 }

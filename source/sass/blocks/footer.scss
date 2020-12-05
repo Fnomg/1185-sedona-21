@@ -1,6 +1,21 @@
 .footer {
+  margin: 0 auto;
   font-family: $base-font;
   padding-bottom: 23px;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    width: 648px;
+    flex-direction: row;
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 961px;
+    flex-direction: row;
+  }
 }
 
 .footer__hashtag {
