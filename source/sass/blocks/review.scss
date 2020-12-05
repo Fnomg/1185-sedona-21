@@ -1,11 +1,27 @@
 .review {
   font-family: $base-font;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 952px;
+  }
 }
 
 .review__text-wrap {
   width: 306px;
   margin: 0 auto;
   margin-top: 36px;
+
+  @media (min-width: $tablet-width) {
+    width: 434px;
+  }
 }
 
 .review__title {
@@ -14,6 +30,11 @@
   font-size: 18px;
   line-height: 26px;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 26px;
+  }
 }
 
 .review__text {
@@ -26,10 +47,21 @@
 
 .review__forms {
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 auto;
+    margin-top: 86px;
+    width: 648px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 952px;
+  }
 }
 
 .review__name .form__input {
@@ -37,11 +69,20 @@
 }
 
 .review__contacts {
+  width: 280px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    width: 648px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 961px;
+  }
 }
 
 .review__contacts .form__wrap {
@@ -60,4 +101,73 @@
   width: 289px;
   display: flex;
   flex-direction: row-reverse;
+}
+
+.review__attractions {
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    width: 648px;
+  }
+}
+
+.review__name {
+  width: 280px;
+  order: -1;
+
+  @media (min-width: $tablet-width) {
+    width: 266px;
+  }
+}
+
+.review__impression {
+  width: 280px;
+  order: -2;
+
+  @media (min-width: $tablet-width) {
+    width: 303px;
+  }
+}
+
+.review__comment {
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    width: 648px;
+  }
+}
+
+.review__button {
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 324px;
+    margin: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 480px;
+  }
+}
+
+.review__text-requared {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+}
+
+.review__submit-wrap {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 648px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 959px;
+  }
 }

@@ -13,10 +13,14 @@
   @media (min-width: $desktop-width) {
     width: 1200px;
   }
+
+  &--bridge {
+    flex-direction: row-reverse;
+  }
 }
 
-.features__list-big :nth-child(1) .feature__header,
-.features__list-big :nth-child(2) .feature__header {
+.feature--sity .feature__header,
+.feature--bridge .feature__header {
   background-color: $base-color;
   color: $white;
 
@@ -29,17 +33,17 @@
   }
 }
 
-.features__list-big :nth-child(1) .feature__header {
+.feature--sity .feature__header {
   padding-top: 55px;
   padding-bottom: 39px;
 }
 
-.features__list-big :nth-child(2) .feature__header {
+.feature--bridge .feature__header {
   padding-top: 39px;
   padding-bottom: 35px;
 }
 
-.features__list-big :nth-child(1) .feature__picture {
+.feature--sity .feature__picture {
   width: 320px;
   height: 260px;
   background: url("../img/photo-city.jpg") center center no-repeat;
@@ -55,7 +59,7 @@
   }
 }
 
-.features__list-big :nth-child(2) .feature__picture {
+.feature--bridge .feature__picture {
   width: 320px;
   height: 260px;
   background: url("../img/photo-bridge.png") center center no-repeat;
